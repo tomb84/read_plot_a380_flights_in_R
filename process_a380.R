@@ -294,23 +294,5 @@ if(OUTPUT_DATA_TO_FILE == 1) {
   stop
 }
 
-# to write output
-# But this is hard to work with when we read it in
-#results=as.matrix(cbind(ydep_filt,yarr_filt))
-#write.table(results, "C:/Users/Tom/Documents/R/output.txt", sep="\t")
-
-########################################
-## Reading the table
-#Then to read the table
-#myflights <- read.table("C:/Users/Tom/Documents/R/output.txt")
-#departures = myflights[1]
-#arrivals = myflights[2]
-#########################################
-
-#to write the output we used
-#write.table(ydep_filt, "C:/Users/Tom/Documents/R/output.txt", sep="\t")
-#write.table(yarr_filt, "C:/Users/Tom/Documents/R/output.txt", sep="\t", append =TRUE)
-
-#write.csv(mydata, file = "MyData.csv")
 
 
